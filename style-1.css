@@ -59,6 +59,7 @@ body {
     display: inline-block;
     position: relative;
     cursor: pointer;
+    bottom: -23px; 
   }
   .slider input[type="checkbox"] {
     display: none;
