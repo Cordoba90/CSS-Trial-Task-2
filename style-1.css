@@ -59,7 +59,8 @@ body {
     display: inline-block;
     position: relative;
     cursor: pointer;
-    bottom: -23px; 
+    bottom: -23px;
+     
   }
   .slider input[type="checkbox"] {
     display: none;
@@ -88,6 +89,8 @@ body {
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.5s;
+    position: relative;
+    top: +23px;
   }
   .card:hover {
     transform: rotateY(180deg);
